@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="The portfolio of Sri Ram Keshri, a Full Stack Developer specializing in creating interactive and engaging digital experiences.">
+    <title>Sri Ram Keshri - Full Stack Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Roboto+Mono:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#home" class="logo">SRK.</a>
+                <ul id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button class="hamburger" id="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Hi, I'm <span>Sri Ram Keshri</span></h1>
+                    <h2>I'm a <span class="typing-text"></span></h2>
+                    <p>Turning ideas into interactive and engaging digital experiences.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn">View My Work</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                    <div class="social-links-hero">
+                        <a href="https://www.linkedin.com/in/sri-ram-keshri-6b51a525b/" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Sri-Ram-Keshri" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="images/profile.jpg" alt="Sri Ram Keshri's Profile Picture">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container fade-in">
+                <div class="section-title">
+                    <h2>About Me</h2>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Hello! I'm Sri Ram, a passionate B.Tech CSE student at RCU and a Full Stack Developer with a
+                            deep love for Java, Python and Django.
+                        </p>
+                        <p>
+                            My journey began with a humble school project in my first year of college. Since then, I’ve
+                            spent the last three years designing and building beautiful, functional web applications.
+                            From responsive UIs to smooth backend logic, I specialize in crafting intuitive user
+                            experiences that are as impactful as they are elegant.
+                        </p>
+                        <p>
+                            I’m a problem-solver at heart, always eager to tackle new challenges and explore
+                            cutting-edge technologies to stay ahead in the ever-evolving tech world.
+                        </p>
+                        <p>
+                            When I’m not coding, you’ll likely find me exploring the mountains—because I believe a
+                            well-balanced life fuels creativity and innovation.
+                        </p>
+                        <a href="images/resume.pdf" target="_blank" class="btn btn-download">Download CV <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <div class="container fade-in">
+                <div class="section-title">
+                    <h2>My Arsenal</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="devicon-html5-plain-wordmark colored"></i>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-css3-plain-wordmark colored"></i>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-javascript-plain colored"></i>
+                        <h3>JavaScript</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-bootstrap-plain-wordmark colored"></i>
+                        <h3>Bootstrap</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-python-plain-wordmark colored"></i>
+                        <h3>Python</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-django-plain-wordmark colored"></i>
+                        <h3>Django</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-java-plain-wordmark colored"></i>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-c-plain-wordmark colored"></i>
+                        <h3>C</h3>
+                    </div>
+                    <div class="skill-item"><i class="devicon-git-plain-wordmark colored"></i>
+                        <h3>Git</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="container fade-in">
+                <div class="section-title">
+                    <h2>My Work</h2>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/project1.jpg" alt="Project 1 Screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>School Management System</h3>
+                            <p>A full-featured Django-based web application for efficiently managing school operations.
+                                Built with a custom admin dashboard, role-based login (Admin, Teacher, Student, Payment
+                                Manager), attendance tracking, class/section management, and student admission modules
+                                and many more.
+                            </p>
+                            <div class="project-tags">
+                                <span>Django</span><span>JavaScript</span><span>SQLite</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="[GitHub Repo Link 1]" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/project2.jpg" alt="Project 2 Screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>RamsCart – E-commerce Web App</h3>
+                            <p>A responsive and animated e-commerce website featuring product carousels, real-time cart
+                                updates, and a polished UI. Ideal for showcasing frontend + Django integration.</p>
+                            <div class="project-tags">
+                                <span>Django</span><span>HTML</span><span>CSS</span><span>JS</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="[GitHub Repo Link 2]" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/project3.jpg" alt="Project 3 Screenshot">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3>Portfolio Website</h3>
+                            <p>A personal portfolio to showcase my skills, projects, and journey as a developer. Designed for clarity, responsiveness, and professionalism.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JS</span><span>Bootstrap</span>
+                            </div>
+                            <!-- <div class="project-links">
+                                <a href="[GitHub Repo Link 3]" target="_blank">GitHub <i class="fab fa-github"></i></a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container fade-in">
+                <div class="section-title">
+                    <h2>Get In Touch</h2>
+                    <p>Have a question or want to collaborate? My inbox is always open!</p>
+                </div>
+                <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact" />
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    </p>
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-links-footer">
+                <a href="https://www.linkedin.com/in/sri-ram-keshri-6b51a525b/" target="_blank" aria-label="LinkedIn"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Sri-Ram-Keshri" target="_blank" aria-label="GitHub"><i
+                        class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; <span id="current-year"></span> Sri Ram Keshri. All rights reserved.</p>
+            <p class="footer-note">Crafted with <i class="fas fa-heart"></i> and a lot of <i class="fas fa-coffee"></i>.
+            </p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
